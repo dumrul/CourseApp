@@ -1,0 +1,29 @@
+.net sdk 2.2 yüklenmeli
+
+C:\sadikturan\courseapp>dotnet new --
+C:\sadikturan\courseapp>dotnet new web
+C:\sadikturan\courseapp>code .
+
+terminal ekranýnda (1:dotnet seçili olmalý)
+C:\sadikturan\courseapp>dotnet run
+
+launchsettings.json
+https adresini kaldýr
+"applicationUrl": "https://localhost:5001;http://localhost:5000"
+"applicationUrl": "http://localhost:5000"
+
+services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+C# Extensions paketini ekle
+
+dotnet watch run
+
+File=>Preferences=>Settings=>User=>Extensions=>Emmet
+
+"emmet.includeLanguages": {
+        "razor":"html",
+        "aspnetcorerazor":"html"
+
+
+ASP.NET core VS Code Extension Pack
+       }
